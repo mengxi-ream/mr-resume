@@ -4,7 +4,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 This is a starter template for a resume website built with React and Next.js. You can use this template to build your own resume website. The website is responsive and mobile-friendly. You can also export the website as a PDF file by the "Download Resume" button.
 
-[Live Demo](https://react-resume-starter-m3mb5l62a-crayon-shinchan.vercel.app/)
+[Live Demo](https://react-resume-starter.vercel.app/)
 
 ![Screenshot](public/images/photos/demo.png)
 
