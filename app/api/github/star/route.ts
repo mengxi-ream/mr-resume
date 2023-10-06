@@ -1,5 +1,4 @@
 import { NextRequest } from "next/server";
-// eslint-disable-next-line @typescript-eslint/no-var-requires
 // const { Octokit } = require("@octokit/rest");
 
 export async function GET(req: NextRequest) {
