@@ -23,6 +23,7 @@ export default function LabelWithGraphic({
           height={24}
           width={24}
           className="h-4 w-4 rounded-full"
+          priority
           unoptimized
         />
       )}

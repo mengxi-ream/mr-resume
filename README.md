@@ -1,32 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a resume starter/template to allow you writing your resume with React.
+
+It has the following features:
+
+1. ✍️ Write once, get a website & PDF!
+2. 📱 Super responsive & interactive (mobile-friendly)
+3. 📈 Real-time data from API call, e.g. the number of Github stars of your repo
+4. 🌓 Dark/Light Mode + All the animations you desire
+5. 🤖 (To be added) GPT Integration: Have AI answer queries about you!
+6. ... and all the magic React offers!
 
 ## Overview
 
-This is a starter template for a resume website built with React and Next.js. You can use this template to build your own resume website. The website is responsive and mobile-friendly. You can also export the website as a PDF file by the "Download Resume" button.
+[Live Deployment of this repo](https://react-resume-starter.vercel.app/) (With all features mentioned above but GPT integration)
 
-[Live Demo](https://react-resume-starter.vercel.app/)
+![Screenshot](public/images/read-me/demo.png)
 
-![Screenshot](public/images/photos/demo.png)
+You can download PDF version of this resume by click the download button on the top right corner. Note the best way to print is to print it in Chrome/Arc Browser with A4 Size like the following.
+
+![Screenshot](public/images/read-me/pdf.png)
+
+In your download PDF file, the button in the top right corner will be "View Live Resume" button to let your reader to go to your website (live resume).
+
+[My Resume](https://kuiliang.vercel.app/resume) (With GPT integration)
+
+![Screenshot](public/images/read-me/gpt-showcase.png)
 
 ## Getting Started
 
-First, run the development server:
+fork/clone this repo
+
+Go to the folder you cloned, run the development server:
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+You can start editing the sections in the resume by modifying files in `components/section` folder. And change the your photo in the navbar by change the file `/components/header.tsx` and `public/images/portrait.jpeg`.
 
 ## Learn More
 
@@ -39,11 +51,20 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The easiest way to deploy this app (This is an [Next.js](https://nextjs.org) app) is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Go to [Vercel Platform Dashboard](https://vercel.com/dashboard), Then click `Create New -> Project`.
 
-##
+Then you can import your repo this this page.
 
-- [ ] Rename "nextjs-resume-starter"
-- [ ] PDF resume image loading="eager"
+![Screenshot](public/images/read-me/vercel.png)
+
+Then you can deploy your app by clicking `Deploy` button.
+
+## Todo
+
+- [ ] More Friendly Document
+  - [ ] Understand the full structure of this project
+  - [ ] How to use API call
+  - [ ] How to integrate GPT
+- [x] PDF resume image loading="eager"
