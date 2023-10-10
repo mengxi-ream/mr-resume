@@ -57,7 +57,7 @@ The easiest way to deploy this app (This is an [Next.js](https://nextjs.org) app
 
 Go to [Vercel Platform Dashboard](https://vercel.com/dashboard), Then click `Create New -> Project`.
 
-Then you can import your repo this this page.
+Then you can import your repo. (You need to fork this repo or create your own repo after cloning this repo)
 
 ![Screenshot](public/images/read-me/vercel.png)
 
