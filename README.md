@@ -2,6 +2,27 @@
 <img src="public/images/mr-resume/banner-rounded.png" alt="readme-header" width="500">
 </p>
 
+<div align="center">
+
+![GitHub License MIT](https://img.shields.io/github/license/Crayon-ShinChan/mr-resume?color=%234a6cb5)
+![GitHub Repo stars](https://img.shields.io/github/stars/Crayon-ShinChan/mr-resume?color=%234a6cb5)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/Crayon-ShinChan/mr-resume?color=%234a6cb5)
+
+A framework to create new generation resume with power of React and Markdown.
+
+[📺 Examples](https://react-resume-starter.vercel.app/) | [🌎 Discord](https://discord.gg/62ZaHPETY4) 
+
+</div>
+
+---
+
+## 🚨 Upcoming Changes 
+
+The main branch (v0.1) is now in a feature freeze. The next version is being developed in the [markdown-support branch](https://github.com/Crayon-ShinChan/mr-resume/tree/markdown-support).
+Find out more about the those changes [here]().
+
+## Motivation
+
 This is a resume starter/template to allow you writing your resume with React.
 
 It has the following features:
