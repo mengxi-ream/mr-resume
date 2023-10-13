@@ -1,3 +1,7 @@
+<p align="center">
+<img src="public/images/mr-resume/banner-rounded.png" alt="readme-header" style="max-width:500px;">
+</p>
+
 This is a resume starter/template to allow you writing your resume with React.
 
 It has the following features:
