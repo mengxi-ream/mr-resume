@@ -1,5 +1,5 @@
 <p align="center">
-<img src="public/images/mr-resume/banner-rounded.png" alt="readme-header" width="500">
+<img src="public/images/mr-resume/banner-rounded.png" alt="readme-header" width="360">
 </p>
 
 <div align="center">
