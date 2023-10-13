@@ -19,7 +19,7 @@ A framework to create new generation resume with power of React and Markdown.
 ## 🚨 Upcoming Changes 
 
 The main branch (v0.1) is now in a feature freeze. The next version is being developed in the [markdown-support branch](https://github.com/Crayon-ShinChan/mr-resume/tree/markdown-support).
-Find out more about the those changes [here]().
+Find out more about the those changes [here](https://mr-resume.com/roadmap).
 
 ## Motivation
 
