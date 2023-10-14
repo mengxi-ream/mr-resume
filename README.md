@@ -1,5 +1,5 @@
 <p align="center">
-<img src="public/images/mr-resume/banner-rounded.png" alt="readme-header" width="360">
+<img src="public/images/mr-resume/banner-rounded.png" alt="readme-header" width="360"/>
 </p>
 
 <div align="center">
@@ -10,13 +10,13 @@
 
 A framework to create new generation resume with power of React and Markdown.
 
-[📺 Examples](https://react-resume-starter.vercel.app/) | [🌎 Discord](https://discord.gg/62ZaHPETY4) 
+[📺 Examples](https://react-resume-starter.vercel.app/) | [🌎 Discord](https://discord.gg/62ZaHPETY4)
 
 </div>
 
 ---
 
-## 🚨 Upcoming Changes 
+## 🚨 Upcoming Changes
 
 The main branch (v0.1) is now in a feature freeze. The next version is being developed in the [markdown-support branch](https://github.com/Crayon-ShinChan/mr-resume/tree/markdown-support).
 Find out more about the those changes [here](https://mr-resume.com/roadmap).
