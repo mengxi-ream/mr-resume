@@ -1,0 +1,45 @@
+# Roadmap
+
+The vision for M.R. Resume is a morden all-in-one framework to allow users to create their own resume website and pdf with ease. Therefore, M.R. Resume decides to let user write their resume in markdown.
+
+## 1. Markdown File with React Component
+
+We leverage the power of [MDX](https://mdxjs.com/) to allow users to write their markdown resume with React components, which brings potential to do many cool stuff like integrating GPT into their resume.
+
+### 1.1 Dark Mode
+
+We will provide a dark mode switch to allow user to switch between light and dark mode.
+
+### 1.2 Support both styleless and styled components
+
+We will provide a way to allow user to use both styleless and styled components. For users who want to build an default decent resume quickly, they can use styled components. For users who want to build a resume with their own style, they can use styleless components.
+
+### 1.3 Tailwind CSS Support
+
+We will provide a way to allow user to use [Tailwind CSS](https://tailwindcss.com/) to style their resume.
+
+### 1.4 Animation Support
+
+We will provide a way to allow user to use [Framer Motion](https://www.framer.com/motion/) to add animation to their resume. There should be some default animation for user to easily choose from.
+
+### 1.5 Common API Calls
+
+We will provide a way to allow user to make common API calls, like fetching data from Github etc.
+
+### 1.6 GPT Integration
+
+We will provide a way to allow user to integrate GPT into their resume as easy as possible. The current plan is to use supabase (auth and database). Also, users need to create a json file to give GPT their information. Then user add the GPT component to markdown file and pass the json file to the component. This should be all the steps user need to do to integrate GPT into their resume.
+
+## 2. PDF Generation
+
+We believe the complete morden resume system should compatible with the traditional resume format, which is PDF. Therefore, we will provide a PDF generation method to allow user to generate their resume in PDF format.
+
+In addition, PDF and website sometimes should have different styles, like the font size, margin, remove website header/footer etc. Therefore, we will provide a way to allow user to customize their PDF style.
+
+## 3. Server Side Rendering & SEO
+
+We will provide a way to allow user to generate their resume website with server side rendering. This will help user to improve their SEO.
+
+## 4. Deployment and Hosting
+
+We will provide a way to allow user to deploy their resume website to Vercel. And the document should has the button to help users to directly deploy thewebsite to Vercel.
