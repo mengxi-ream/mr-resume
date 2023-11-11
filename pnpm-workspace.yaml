@@ -1,5 +1,3 @@
 packages:
-  - 'docs'
-  # all packages in subdirs of packages/ and components/
-  - 'packages/*'
-  - 'examples/*'
+  - "apps/*"
+  - "packages/*"
