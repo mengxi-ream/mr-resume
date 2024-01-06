@@ -17,7 +17,7 @@ export default function ActionButton({ text, className, usage }: Props) {
       {text}
     </Button>
   ) : (
-    <Button href="/">
+    <Button href="/resume">
       {text}
       <Icons.OpenLink className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
     </Button>
